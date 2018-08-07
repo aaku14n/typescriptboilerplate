@@ -4,20 +4,20 @@
 2. Server (Back End, nodejs express).
 3. shared.
 
-##Client 
+## Client 
 It containes all structure for frontend code base . it have seperated package.json file.
 
 ### For starting Fontend code 
 **yarn**
 **yern start**
 
-##Server 
+## Server 
 It containes all structure for back code base . it have seperated package.json file.
 
 ### For starting Fontend code 
 **yarn**
 **yern dev**
 
-##Shared
+## Shared
 It containes all structure for interface for entity .( comman for both)
 
