@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "watch-node": "nodemon ./dist/server/server.js",
-    "start": "nodemon ./dist/server.js",
-    "watch": "concurrently \"yarn watch-ts\" \"yarn watch-node\"",
+    "start": "concurrently \"yarn watch-ts\" \"yarn watch-node\"",
     "watch-ts": "tsc -w"
   },
   "dependencies": {
