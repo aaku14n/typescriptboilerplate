@@ -1,0 +1,21 @@
+.feeds{
+    background-color: white;
+    margin:20px;
+    padding:15px;
+}
+@media only screen and (max-width: 1000px) {
+        .base{
+            width:100%;
+            padding:0px;
+            margin:0;
+            background-color: #ececec;
+        } 
+}
+@media only screen and (min-width: 1000px) {
+    .base{
+        width:60%;
+        padding:0px;
+        margin:0;
+        background-color: #ececec;
+    } 
+}

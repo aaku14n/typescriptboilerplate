@@ -1,8 +1,6 @@
 // Import everything from express and assign it to the express variable
 import express from 'express';
-
-// Import WelcomeController from controllers entry point
-import {WelcomeController} from './controllers';
+import createRouter from "./src/routes/index"
 
 // Create a new express application instance
 const app: express.Application = express();
@@ -10,10 +8,8 @@ const app: express.Application = express();
 const port: number =  3000;
 
 // Mount the WelcomeController at the /welcome route
-app.use('/welcome', WelcomeController);
+app.use(createRouter());
 
-// Serve the application at the given port
 app.listen(port, () => {
-    // Success callback
     console.log(`Listening at http://localhost:${port}/`);
 });
