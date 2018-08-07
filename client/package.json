@@ -1,0 +1,54 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "type script boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test\"",
+    "build": "webpack",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaku14n/typescriptboilerplate.git"
+  },
+  "keywords": [
+    "type",
+    "script",
+    "boilerplate"
+  ],
+  "author": "aaku14n",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaku14n/typescriptboilerplate/issues"
+  },
+  "homepage": "https://github.com/aaku14n/typescriptboilerplate#readme",
+  "dependencies": {
+    "@types/react": "^16.4.8",
+    "@types/react-dom": "^16.0.7",
+    "autoprefixer": "^9.1.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^2.1.6",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-hot-loader": "^4.3.4",
+    "react-router-dom": "^4.3.1",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
